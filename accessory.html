@@ -1,4 +1,6 @@
-esto es pequeño cambio
+
+esto es un cambio desde netbeans
+esto es pequeÃ±o cambio
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -10,9 +12,9 @@ esto es pequeño cambio
     <!-- 
     body  {
 	font: 100% Verdana, Arial, Helvetica, sans-serif;
-	margin: 0; /* es recomendable ajustar a cero el margen y el relleno del elemento body para lograr la compatibilidad con la configuración predeterminada de los diversos navegadores */
+	margin: 0; /* es recomendable ajustar a cero el margen y el relleno del elemento body para lograr la compatibilidad con la configuraciÃ³n predeterminada de los diversos navegadores */
 	padding: 0;
-	text-align: center; /* esto centra el contenedor en los navegadores IE 5*. El texto se ajusta posteriormente con el valor predeterminado de alineación a la izquierda en el selector #container */
+	text-align: center; /* esto centra el contenedor en los navegadores IE 5*. El texto se ajusta posteriormente con el valor predeterminado de alineaciÃ³n a la izquierda en el selector #container */
 	color: #000000;
     }
     .twoColLiqLtHdr #container {
@@ -24,7 +26,7 @@ esto es pequeño cambio
 	background-position: top right;
 	} 
     .twoColLiqLtHdr #header {
-	/* este relleno coincide con la alineación izquierda de los elementos de los divs que aparecen bajo él. Si se utiliza una imagen en el #header en lugar de texto, es posible que le interese quitar el relleno. */
+	/* este relleno coincide con la alineaciÃ³n izquierda de los elementos de los divs que aparecen bajo Ã©l. Si se utiliza una imagen en el #header en lugar de texto, es posible que le interese quitar el relleno. */
     
 		background-image: url(http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/header_n3.jpg);
 	width: 720px;
@@ -34,9 +36,9 @@ esto es pequeño cambio
 	} 
     
     /* Sugerencias para sidebar1:
-    1. dado que está trabajando en porcentajes, es conveniente no utilizar relleno en la barra lateral. Se añadirá al ancho en el caso de navegadores que cumplen los estándares, creando un ancho real desconocido. 
+    1. dado que estÃ¡ trabajando en porcentajes, es conveniente no utilizar relleno en la barra lateral. Se aÃ±adirÃ¡ al ancho en el caso de navegadores que cumplen los estÃ¡ndares, creando un ancho real desconocido. 
     2. El espacio entre el lado del div y los elementos que contiene puede crearse colocando un margen izquierdo y derecho en dichos elementos, como se observa en la regla ".twoColLiqLtHdr #sidebar1 p".
-    3. Dado que Explorer calcula los anchos después de mostrarse el elemento padre, puede que ocasionalmente encuentre errores inexplicables con columnas basadas en porcentajes. Si necesita resultados más predecibles, puede optar por cambiar a columnas con tamaño en píxeles.
+    3. Dado que Explorer calcula los anchos despuÃ©s de mostrarse el elemento padre, puede que ocasionalmente encuentre errores inexplicables con columnas basadas en porcentajes. Si necesita resultados mÃ¡s predecibles, puede optar por cambiar a columnas con tamaÃ±o en pÃ­xeles.
     */
     .twoColLiqLtHdr #sidebar1 {
 	float: left;
@@ -47,9 +49,9 @@ esto es pequeño cambio
     }
     
     /* Sugerencias para mainContent:
-    1. el espacio entre el mainContent y sidebar1 se crea con el margen izquierdo del div mainContent.  Con independencia de la cantidad de contenido que incluya el div sidebar1, permanecerá el espacio de la columna. Puede quitar el margen izquierdo si desea que el texto del div #mainContent llene el espacio de #sidebar1 cuando termine el contenido de #sidebar1.
-    2. para evitar la caída de un elemento flotante con una resolución mínima admitida de 800 x 600, los elementos situados dentro del div mainContent deben tener un tamaño de 430px o inferior (incluidas las imágenes).
-    3. en el siguiente comentario condicional de Internet Explorer, la propiedad zoom se utiliza para asignar a mainContent "hasLayout." Esto evita diversos problemas específicos de IE.
+    1. el espacio entre el mainContent y sidebar1 se crea con el margen izquierdo del div mainContent.  Con independencia de la cantidad de contenido que incluya el div sidebar1, permanecerÃ¡ el espacio de la columna. Puede quitar el margen izquierdo si desea que el texto del div #mainContent llene el espacio de #sidebar1 cuando termine el contenido de #sidebar1.
+    2. para evitar la caÃ­da de un elemento flotante con una resoluciÃ³n mÃ­nima admitida de 800 x 600, los elementos situados dentro del div mainContent deben tener un tamaÃ±o de 430px o inferior (incluidas las imÃ¡genes).
+    3. en el siguiente comentario condicional de Internet Explorer, la propiedad zoom se utiliza para asignar a mainContent "hasLayout." Esto evita diversos problemas especÃ­ficos de IE.
     */
     .twoColLiqLtHdr #mainContent {
 	height: auto;
@@ -58,24 +60,24 @@ esto es pequeño cambio
 	width: 700px;
     } 
     .twoColLiqLtHdr #footer {
-	padding: 0 10px; /* este relleno coincide con la alineación izquierda de los elementos de los divs que aparecen por encima de él. */
+	padding: 0 10px; /* este relleno coincide con la alineaciÃ³n izquierda de los elementos de los divs que aparecen por encima de Ã©l. */
 	background:#DDDDDD;
 	height: 20px;
 	width: auto;
     } 
     
-    /* Varias clases diversas para su reutilización */
-    .fltrt { /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+    /* Varias clases diversas para su reutilizaciÃ³n */
+    .fltrt { /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la pÃ¡gina. El elemento flotante debe preceder al elemento junto al que debe aparecer en la pÃ¡gina. */
     	float: right;
     	margin-left: 8px;
     }
-    .fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. */
+    .fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la pÃ¡gina. */
     	float: left;
     	margin-right: 8px;
 
 
     }
-    .clearfloat { /* esta clase debe colocarse en un elemento div o break y debe ser el último elemento antes del cierre de un contenedor que incluya completamente a un elemento flotante */
+    .clearfloat { /* esta clase debe colocarse en un elemento div o break y debe ser el Ãºltimo elemento antes del cierre de un contenedor que incluya completamente a un elemento flotante */
     	clear:both;
         height:0;
         font-size: 1px;
@@ -155,7 +157,7 @@ esto es pequeño cambio
     /* coloque las reparaciones de css para todas las versiones de IE en este comentario condicional */
     .twoColLiqLtHdr #sidebar1 { padding-top: 30px; }
     .twoColLiqLtHdr #mainContent { zoom: 1; padding-top: 15px; }
-    /* la propiedad zoom propia que se indica más arriba proporciona a IE el hasLayout que necesita para evitar diversos errores */
+    /* la propiedad zoom propia que se indica mÃ¡s arriba proporciona a IE el hasLayout que necesita para evitar diversos errores */
     </style>
     <![endif]-->
     
@@ -535,7 +537,7 @@ border: none;
 
 
       </div>
-<!-- Este elemento de eliminación siempre debe ir inmediatamente después del div #mainContent para forzar al div #container a que contenga todos los elementos flotantes hijos --><br class="clearfloat" />
+<!-- Este elemento de eliminaciÃ³n siempre debe ir inmediatamente despuÃ©s del div #mainContent para forzar al div #container a que contenga todos los elementos flotantes hijos --><br class="clearfloat" />
       <div id="footer">
        <span class="Estilo3"> .</span>
       <!-- end #footer --></div>
