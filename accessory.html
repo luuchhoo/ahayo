@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Accessory Studios - accessories for cammeras, camcorders, D-SRL, charmstrap, computers, cellphones,</title>
+<style type="text/css"> 
+    <!-- 
+    body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; /* es recomendable ajustar a cero el margen y el relleno del elemento body para lograr la compatibilidad con la configuración predeterminada de los diversos navegadores */
+	padding: 0;
+	text-align: center; /* esto centra el contenedor en los navegadores IE 5*. El texto se ajusta posteriormente con el valor predeterminado de alineación a la izquierda en el selector #container */
+	color: #000000;
+    }
+    .twoColLiqLtHdr #container {
+	border: 1px solid #000000;
+	text-align: left; /* esto anula text-align: center en el elemento body. */
+	background-image: url(http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/background_n3.jpg);
+	background-repeat: repeat-y;
+	width: 720px;
+	background-position: top right;
+	} 
+    .twoColLiqLtHdr #header {
+	/* este relleno coincide con la alineación izquierda de los elementos de los divs que aparecen bajo él. Si se utiliza una imagen en el #header en lugar de texto, es posible que le interese quitar el relleno. */
+    
+		background-image: url(http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/header_n3.jpg);
+	width: 720px;
+	height: 137px;
+	clear: both;
+	background-repeat: no-repeat;
+	} 
+    
+    /* Sugerencias para sidebar1:
+    1. dado que está trabajando en porcentajes, es conveniente no utilizar relleno en la barra lateral. Se añadirá al ancho en el caso de navegadores que cumplen los estándares, creando un ancho real desconocido. 
+    2. El espacio entre el lado del div y los elementos que contiene puede crearse colocando un margen izquierdo y derecho en dichos elementos, como se observa en la regla ".twoColLiqLtHdr #sidebar1 p".
+    3. Dado que Explorer calcula los anchos después de mostrarse el elemento padre, puede que ocasionalmente encuentre errores inexplicables con columnas basadas en porcentajes. Si necesita resultados más predecibles, puede optar por cambiar a columnas con tamaño en píxeles.
+    */
+    .twoColLiqLtHdr #sidebar1 {
+	float: left;
+	width: 210px;
+	text-align: center;
+	width: 720px;
+	height: 250px;
+    }
+    
+    /* Sugerencias para mainContent:
+    1. el espacio entre el mainContent y sidebar1 se crea con el margen izquierdo del div mainContent.  Con independencia de la cantidad de contenido que incluya el div sidebar1, permanecerá el espacio de la columna. Puede quitar el margen izquierdo si desea que el texto del div #mainContent llene el espacio de #sidebar1 cuando termine el contenido de #sidebar1.
+    2. para evitar la caída de un elemento flotante con una resolución mínima admitida de 800 x 600, los elementos situados dentro del div mainContent deben tener un tamaño de 430px o inferior (incluidas las imágenes).
+    3. en el siguiente comentario condicional de Internet Explorer, la propiedad zoom se utiliza para asignar a mainContent "hasLayout." Esto evita diversos problemas específicos de IE.
+    */
+    .twoColLiqLtHdr #mainContent {
+	height: auto;
+	float: left;
+	margin-left: 20px;
+	width: 700px;
+    } 
+    .twoColLiqLtHdr #footer {
+	padding: 0 10px; /* este relleno coincide con la alineación izquierda de los elementos de los divs que aparecen por encima de él. */
+	background:#DDDDDD;
+	height: 20px;
+	width: auto;
+    } 
+    
+    /* Varias clases diversas para su reutilización */
+    .fltrt { /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+    	float: right;
+    	margin-left: 8px;
+    }
+    .fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. */
+    	float: left;
+    	margin-right: 8px;
+
+
+    }
+    .clearfloat { /* esta clase debe colocarse en un elemento div o break y debe ser el último elemento antes del cierre de un contenedor que incluya completamente a un elemento flotante */
+    	clear:both;
+        height:0;
+        font-size: 1px;
+        line-height: 0px;
+    }
+.Estilo1 {font-size: 12px}
+.boton {	font-size:10px;
+	font-family:Verdana,Helvetica;
+	font-weight:bold;
+	color:#CECECE;
+	width:80px;
+	height:19px;
+	background-color: #113355;
+}
+
+.shipping {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.categoria_izq {
+	height: 200px;
+	width: 200px;
+	margin-top: 0px;
+	background-image: url(http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/izq_categories_n.jpg);
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFF99;
+	float: left;
+	margin-left: 20px;
+}
+#wrapper {	font-size: 1.2em;
+	text-align: left;
+	width: 200px;
+	height: 19px;
+}
+.checkout {
+	height: 200px;
+	width: 200px;
+	background-image: url(http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/izq_categories_n.jpg);
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFF99;
+	;
+	float: left;
+	margin-left: 20px;
+}
+.payment {
+	height: 200px;
+	width: 200px;
+	background-image: url(http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/izq_categories_n.jpg);
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFF99;
+	margin-left: 20px;
+	float: left;
+}
+.menu_izquierdo {	height: auto;
+	width: 200px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFF99;
+	float: left;
+}
+    --> 
+    </style>
+<!--[if IE]>
+    <style type="text/css"> 
+    /* coloque las reparaciones de css para todas las versiones de IE en este comentario condicional */
+    .twoColLiqLtHdr #sidebar1 { padding-top: 30px; }
+    .twoColLiqLtHdr #mainContent { zoom: 1; padding-top: 15px; }
+    /* la propiedad zoom propia que se indica más arriba proporciona a IE el hasLayout que necesita para evitar diversos errores */
+    </style>
+    <![endif]-->
+    
+    <style type="text/css">
+
+   
+img {
+border: none;
+}
+
+/*- Menu Tabs 3--------------------------- */
+
+    #tabs3 {
+	width:550px;
+	font-size:93%;
+	line-height:normal;
+	clear: right;
+      }
+    #tabs3 ul {
+	margin:0;
+	padding:0px 60px 0 0px;
+	list-style:none;
+      }
+    #tabs3 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs3 a {
+	float:left;
+	background:url("http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/tableft3.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+      }
+    #tabs3 a span {
+	float:left;
+	display:block;
+	background:url("http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/tabright3.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#FFFF99;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs3 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs3 a:hover span {
+      color:#FFF;
+      }
+    #tabs3 a:hover {
+      background-position:0% -42px;
+      }
+    #tabs3 a:hover span {
+      background-position:100% -42px;
+      }
+
+      #tabs3 #current a {
+              background-position:0% -42px;
+      }
+      #tabs3 #current a span {
+              background-position:100% -42px;
+      }
+.Estilo2 {font-weight: bold}
+.filtersize {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #FF0000;
+}
+-->
+
+    </style>
+
+<style>
+#wrapper {
+	font-size: 1.2em;
+	text-align: left;
+	width: 200px;
+	height: 19px;
+		}
+		
+		#wrapper div.imgholder {
+	margin-bottom: 15px;
+	height: 19px;
+		}
+		
+		#wrapper div.imgholder div.text {
+	margin-top: 2px;
+	padding: 2px;
+	height: 19px;
+		}
+		
+		#wrapper img {
+	border: 5px solid;
+	height: 19px;
+		}
+	#applesearch .sbox_l  {
+	background: white url('http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/srch_l.gif') no-repeat top left;
+	float: left;
+	width: 19px;
+	height: 19px;
+	margin-left: 10px;
+	background-color: #1A3B5A;
+}
+
+#applesearch .sbox_r  {
+	background: white url('http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/srch_r1.gif') no-repeat top left;
+	float: left;
+	width: 19px;
+	height: 19px;
+	background-color: #B4B7BC;
+}
+
+#applesearch .sbox input {
+	background: white url('http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/2/srch_bg.gif') repeat-x top left;
+	float: left;
+	border: 0;
+	height: 19px;
+	width: 142px;
+	font: 11px arial;
+	color: #000;
+}
+
+#content {
+	clear: both;
+}
+.Estilo2 {font-weight: bold}
+.adtitle {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-size: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #113454;
+}
+.aka {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: small;
+	color: #FF6600;
+	font-style: italic;
+}
+.aka1 {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #0066dd;
+	font-style: normal;
+}
+.slogan {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #CC0000;
+	font-size: 16px;
+}
+.salespitch {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-style: italic;
+	color: #333333;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tabla_compatibilidad {
+	height: auto;
+	width: 700px;
+	margin-top: 15px;
+	font-style: italic;
+	color: #333333;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.imagen_principal {
+	height: auto;
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 680px;
+}
+.nota {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #990000;
+	font-style: italic;
+}
+.subtitles {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 40px;
+	color: #2d5278;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: oblique;
+}
+.description {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+.compatibilidad {
+	height: auto;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 15px;
+	color: #336699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.filtersize1 {
+	height: auto;
+	width: 700px;
+	margin-top: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #666666;
+	clear: both;
+}
+
+.filtersize2 {
+	height: auto;
+	width: 600px;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #666666;
+	clear: both;
+}
+.Estilo3 {color: #DDDDDD}
+.Estilo4 {font-size: 9px}
+</style>
+</head>
+
+<body class="twoColLiqLtHdr">
+<div id="container"> 
+      <div id="header">
+        
+      <!-- end #header --></div>
+<div id="mainContent">
+      
+      <div id="tabs3">
+                        <ul>
+                                <!-- CSS Tabs -->
+<li><a href="http://stores.ebay.com/Accessory-Studios" target="_blank"><span>Home</span></a></li>
+<li><a href="#payment"><span>Payment</span></a></li>
+<li><a href="#characteristics"><span>Description</span></a></li>
+<li><a href="#checkout"><span>Checkout</span></a></li>
+<li><a href="#menu_policies"><span>Policies</span></a></li>
+          </ul>
+  </div>
+        <div></div>
+<br class="clearfloat" />
+        <div class="filtersize">
+          <div align="center" class="Estilo2"> {{FILTERSIZE}} </div>
+        </div>
+        <div class="adtitle">
+          <div align="center"><strong> {{ADTITLE}} </strong></div>
+        </div>
+        <div class="aka">
+          <div align="center"> {{AKA}} </div>
+        </div>
+        <div class="aka1">
+          <div align="center"> {{SUBTITLE}} </div>
+        </div>
+        <div class="slogan">
+          <div align="center"> {{SLOGAN}} </div>
+        </div>
+        <div class="salespitch">
+          <div align="center"><strong> {{SALESPITCH}} </strong></div>
+        </div>
+        <div class="imagen_principal"> {{IMAGECHOOSER(T)}}</div>
+        <br class="clearfloat" />
+        <div class="nota">
+          <div align="justify"> {{NOTA}} </div>
+        </div>
+        <div class="subtitles"><strong><a name="characteristics" id="characteristics"></a>CHARACTERISTICS</strong></div>
+        
+        <div class="filtersize1">{{DESCRIPTIONS}}
+        <br class="clearfloat" />
+        </div>
+        
+        
+        
+        <div class="compatibilidad"> {{COMPATIBILIDAD}} </div>
+        <br class="clearfloat" />
+        
+        <div class="subtitles">
+          <table  width="400"border="0" align="center">
+            <tr>
+              <td scope="col" align="left"><img src="{{LINKPROMOUNIVERSAL}}" border="0"/></td>
+            </tr>
+            <tr>
+              <td scope="col" align="left"><img src="{{LINKPROMOSKU}}" border="0"/></td>
+            </tr>
+          </table>
+        </div>
+       
+        <div class="subtitles"> <a name="menu_policies" id="menu_policies"></a><strong>TERMS OF SALE</strong></div>
+        
+        <div class="filtersize1">{{GENERALES}}</div>
+    
+        
+         
+        <br class="clearfloat" />
+        <div class="subtitles"><strong>WHY US</strong></div>
+        
+        <div class="filtersize2">
+          <p><strong>Fast Shipping:</strong><br />
+            We do our best to send your   merchandise out immediately after your payment is received.</p>
+          <p><strong>Quality Products:</strong><br />
+            All products listed have been   selected based on quality and price before their introduction to eBay.</p>
+          <p><strong>Friendly Service:</strong><br />
+            Please send us any questions or   concerns. We continuously support all our customers, before, during and after   purchase.</p>
+        </div>
+        <p>&nbsp;</p>    
+      <!-- end #mainContent --></div>
+      <div id="sidebar1">
+       
+        <!-- end #sidebar1 -->
+      <div class="categoria_izq"><br /><br />
+          <strong>Store Search</strong><br />
+<br />
+          <form id="form1" name="form1" method="get" action="http://search.stores.ebay.com/search/search.dll" target="_blank" > 
+            <div id="wrapper">
+
+	<div id="applesearch">
+		<span class="sbox_l"></span><span class="sbox"> <input name="query" type="text"  result="5" id="srch_fld"/></span><span class="sbox_r"></span>	</div>
+	
+	<div style="clear:both;"></div>
+	</div>
+            <br />
+           <input name="srchdesc" type="checkbox" value="y" checked="checked" /> 
+           <span class="Estilo8 Estilo1">in titles & despriptions</span>
+            <input name="sasel" type="hidden" value="274883234" />
+        	<input name="from" type="hidden" value="R10" />
+            <input name="fcd" type="hidden" value="2" /> 
+            <input name="fsn" type="hidden" value="Accessory Studios" />
+            <input type="submit" value="Search" class="boton">
+        </form><br />       </div>
+          <div class="checkout">
+            <p><br />
+              <strong>Checkout</strong><a name="checkout" id="checkout2"></a><br />
+              <br />
+            <span class="Estilo4">Secure Checkout and compatibility verification. Ready once you win this item:                </span></p>
+            <p><span class="Estilo4">{{CHECKOUTLOOKUP_WIDGET}}</span> <br />
+              <br />
+            </p>
+          </div>
+          <div class="payment"> <br />
+              <strong>Payment</strong><a name="payment" id="payment2"></a><br />
+              <br />
+              <img src="http://images.channeladvisor.com/Sell/SSProfiles/13000322/Images/1/method_paypal.png" alt="Method Payment"/><br />
+              <br />
+          </div>
+
+
+
+      </div>
+<!-- Este elemento de eliminación siempre debe ir inmediatamente después del div #mainContent para forzar al div #container a que contenga todos los elementos flotantes hijos --><br class="clearfloat" />
+      <div id="footer">
+       <span class="Estilo3"> .</span>
+      <!-- end #footer --></div>
+    <!-- end #container --></div>
+</body>
+</html>
+
